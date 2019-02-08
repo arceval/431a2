@@ -1,6 +1,6 @@
 const http = require('http');
 var options = {
-  host: '10.138.0.2',
+  host: process.env.SERVER_IP,
   port: 3000,
   path: '/time',
   method: 'GET'
