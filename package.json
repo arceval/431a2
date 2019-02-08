@@ -1,0 +1,18 @@
+{
+  "name": "a2",
+  "version": "1.0.0",
+  "description": "Assignment 2",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js"
+  },
+  "author": "Rohm Laxton",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
